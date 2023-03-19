@@ -1,0 +1,49 @@
+@import "../utils/vars";
+
+* {
+  font-family: $font-family_1;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding: 95px 0px;
+}
+
+.header-list__studio-logo {
+  font-family: $font-family_2;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: $color4;
+}
+
+.contact-list {
+  &__mail {
+    text-decoration: none;
+    font-family: $font-family_1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: $color7;
+  }
+
+  &__phone {
+    text-decoration: none;
+    font-family: $font-family_1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: $color7;
+  }
+}
