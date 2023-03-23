@@ -1,0 +1,54 @@
+@import "../utils/vars";
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 94px 0px 56px 0px;
+  }
+
+  .button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
+
+    &:hover {
+      color: $primarycolor;
+      background: $secondarycolor;
+      border-color: $secondarycolor;
+      border-radius: 4px;
+      box-shadow: $color9;
+      transition: $transition;
+      transition-duration: 250ms;
+    }
+
+    &:focus {
+      color: $primarycolor;
+      background: $secondarycolor;
+      border-color: $secondarycolor;
+      border-radius: 4px;
+      box-shadow: $color9;
+      transition: $transition;
+      transition-duration: 250ms;
+    }
+  }
+
+  .products-components {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px auto 94px auto;
+  }
+}

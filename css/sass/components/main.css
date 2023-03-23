@@ -15,6 +15,7 @@
   padding: 32px 0px 32px 0px;
   gap: 50px;
   flex-grow: 1;
+  font-family: "Roboto", "sans-serif";
 }
 .header .header-list__colorlogo {
   color: #2196f3;
@@ -149,6 +150,15 @@
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.center-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.444;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
 .main-page {
@@ -303,7 +313,7 @@
 }
 .team-section .team__img {
   width: 270px;
-  height: 300px;
+  height: 260px;
 }
 .team-section .team__img img {
   width: 100%;
@@ -355,7 +365,6 @@
 }
 
 .regular-customers {
-  background: #e5e5e5;
   display: flex;
   justify-content: center;
 }
@@ -388,4 +397,104 @@
   color: #2196f3;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+}
+
+.contact {
+  background: #2f303a;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 94px;
+}
+.contact-wrapper__colorlogo {
+  color: #2196f3;
+}
+.contact-wrapper__credentials {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  gap: 28px;
+}
+.contact-wrapper__credentials a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.contact-wrapper .contact-adress {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 60px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.143;
+  color: #757575;
+  text-decoration: none;
+}
+.contact-wrapper__street {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.contact-wrapper__footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.products-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 94px 0px 56px 0px;
+}
+.products .button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.products .button-portfolio:hover {
+  color: #ffffff;
+  background: #2196f3;
+  border-color: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.products .button-portfolio:focus {
+  color: #ffffff;
+  background: #2196f3;
+  border-color: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.products .products-components {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin: 0px auto 94px auto;
 }/*# sourceMappingURL=main.css.map */

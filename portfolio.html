@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/sass/components/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -18,24 +19,30 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header class="page-header">
+    <header class="header">
       <div class="container">
         <nav class="header-navigation">
-          <ul class="unstyled-list navigation-list">
+          <ul class="unstyled-list header-list">
             <li>
-              <a class="logo-selection" href="./index.html"
-                ><span class="color-logo">Web</span>Studio</a
+              <a class="header-list__studio-logo" href="./index.html"
+                ><span class="header-list__colorlogo">Web</span>Studio</a
               >
             </li>
-            <li><a class="link" href="./index.html">Studio</a></li>
             <li>
-              <a class="link active-link" href="./portfolio.html">Portfolio</a>
+              <a class="header-list__link" href="./index.html">Studio</a>
             </li>
-            <li><a class="link" href="#">Contacts</a></li>
+            <li>
+              <a
+                class="header-list__link header-list__studio"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="header-list__link" href="#">Contacts</a></li>
           </ul>
           <ul class="unstyled-list contact-list">
             <li>
-              <a class="link right-links" href="mailto:info@devstudio.com">
+              <a class="contact-list__mail" href="mailto:info@devstudio.com">
                 <svg class="contact-svg" width="16" height="12">
                   <use
                     href="images/symbol-defs-optimized.svg#envelope (hover)"
@@ -45,7 +52,7 @@
               >
             </li>
             <li>
-              <a class="link right-links" href="tel:+1212-772-4150"
+              <a class="contact-list__phone" href="tel:+1212-772-4150"
                 ><svg class="contact-svg" width="10" height="16">
                   <use href="images/symbol-defs-optimized.svg#smartphone"></use>
                 </svg>
@@ -60,28 +67,26 @@
     <main>
       <section class="products">
         <div class="container">
-          <ul class="unstyled-list button-list">
-            <li class="link">
+          <ul class="unstyled-list products-list">
+            <li class="products-list__button">
               <button class="button-portfolio" type="button">All</button>
             </li>
-            <li class="link">
+            <li class="products-list__button">
               <button class="button-portfolio" type="button">Web-sites</button>
             </li>
-            <li class="link">
+            <li class="products-list__button">
               <button class="button-portfolio" type="button">Apps</button>
             </li>
-            <li>
+            <li class="products-list__button">
               <button class="button-portfolio" type="button">Design</button>
             </li>
-            <li class="link">
+            <li class="products-list__button">
               <button class="button-portfolio" type="button">Marketing</button>
             </li>
           </ul>
-        </div>
-        <div class="container">
-          <ul class="unstyled-list list-of-options container">
+          <ul class="unstyled-list products-components">
             <!-- Line 1 with cards -->
-            <li class="border-cards">
+            <li class="products-components__cards">
               <div class="transition-container">
                 <div class="transition-text-portfolio">
                   <p class="transition-box-text">
