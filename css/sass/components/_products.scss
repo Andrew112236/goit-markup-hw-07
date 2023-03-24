@@ -65,7 +65,7 @@
           height: 294px;
           position: absolute;
           background: rgba(33, 150, 243, 0.9);
-          transform: translateY(0%);
+          transform: translateY(100%);
           opacity: 0.5;
           display: flex;
           justify-content: center;
@@ -90,9 +90,9 @@
         transition: $transition;
         transition-duration: 250ms;
 
-        .transition-container__text {
-          transform: translateY(-100%);
-          opacity: 1;
+        .transition-container__portfolio {
+          transform: translateY(0px);
+          opacity: 0.6;
           transition-duration: 250ms;
           transition-timing-function: $transition;
         }

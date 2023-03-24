@@ -512,7 +512,7 @@
   height: 294px;
   position: absolute;
   background: rgba(33, 150, 243, 0.9);
-  transform: translateY(0%);
+  transform: translateY(100%);
   opacity: 0.5;
   display: flex;
   justify-content: center;
@@ -534,9 +534,9 @@
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.products .products-components__cards:hover .transition-container__text {
-  transform: translateY(-100%);
-  opacity: 1;
+.products .products-components__cards:hover .transition-container__portfolio {
+  transform: translateY(0px);
+  opacity: 0.6;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
