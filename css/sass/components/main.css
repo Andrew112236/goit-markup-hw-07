@@ -486,7 +486,7 @@
 .products .products-components__cards:hover .transition-container__portfolio {
   transform: translateY(0px);
   transition-duration: 500ms;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 .products .products-components__description {
   font-weight: 700;
