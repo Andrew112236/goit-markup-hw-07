@@ -19,61 +19,61 @@
   <body>
     <div class="modal is-hidden" data-modal>
       <div class="inner-div">
-        <button class="modal-button-function" data-modal-close>
-          <svg class="close-button" width="11" height="11">
+        <button class="inner-div__function" data-modal-close>
+          <svg class="inner-div__close" width="11" height="11">
             <use
               href="./images/symbol-defs-optimized.svg#icon-close-button"
             ></use>
           </svg>
         </button>
-        <div class="form-container">
+        <div class="form">
           <p class="form-title">
             Leave your information and we'll call you back
           </p>
           <form name="signup_form" class="form-description" autocomplete="on">
-            <div class="name-form-container">
-              <label class="form-section-container">
+            <div class="form-description__container">
+              <label class="form-description__sections">
                 Name
-                <input class="form-styling" type="text" name="Name" />
-                <svg class="form-svg" width="12" height="12">
+                <input class="input" type="text" name="Name" />
+                <svg class="svg" width="12" height="12">
                   <use
                     href="images/symbol-defs-optimized.svg#icon-person-black"
                   ></use>
                 </svg>
               </label>
             </div>
-            <div class="tel-form-container">
-              <label class="form-section-container">
+            <div class="form-description__container">
+              <label class="form-description__sections">
                 Telephone
-                <input class="form-styling" type="tel" name="Telephone" />
-                <svg class="form-svg" width="13" height="13">
+                <input class="input" type="tel" name="Telephone" />
+                <svg class="svg" width="13" height="13">
                   <use
                     href="images/symbol-defs-optimized.svg#icon-telephone-form"
                   ></use>
                 </svg>
               </label>
             </div>
-            <div class="email-form-container">
-              <label class="form-section-container">
+            <div class="form-description__container">
+              <label class="form-description__sections">
                 Email
-                <svg class="form-svg" width="15" height="12">
+                <svg class="svg" width="15" height="12">
                   <use
                     href="images/symbol-defs-optimized.svg#icon-mail-form"
                   ></use>
                 </svg>
-                <input class="form-styling" type="email" name="Email" />
+                <input class="input" type="email" name="Email" />
               </label>
             </div>
-            <label class="form-section-container">
+            <label class="form-description__sections">
               Comments
               <textarea
-                class="form-section-comments"
+                class="form-description__comments"
                 name="feedback"
                 rows="5"
                 placeholder="Enter the text"
               ></textarea>
             </label>
-            <label class="form-section-container">
+            <label class="form-description__sections">
               <input type="checkbox" />
               <svg class="form-svg-check" width="16" height="15">
                 <use
@@ -85,11 +85,7 @@
               </svg>
               <span class="agreement-text">
                 I agree with the letter and accept the
-                <span
-                  style="
-                    color: var(--color-logo-left-path);
-                    text-decoration: underline;
-                  "
+                <span style="color: #2196f3; text-decoration: underline"
                   >Terms and Conditions</span
                 >
               </span>

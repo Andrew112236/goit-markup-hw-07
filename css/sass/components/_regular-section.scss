@@ -15,8 +15,8 @@
 
     &:hover {
       fill: $secondarycolor;
-      transition-duration: 250ms;
       transition: $transition;
+      transition-timing-function: 250ms;
     }
   }
 
