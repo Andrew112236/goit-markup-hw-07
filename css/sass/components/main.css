@@ -132,6 +132,9 @@
   text-decoration: none;
   color: #000000;
 }
+.header-list__studio-logo--footer {
+  color: #ffffff;
+}
 
 .contact-list__mail {
   text-decoration: none;
@@ -482,6 +485,7 @@
 }
 .products .products-components__cards:hover .transition-container__portfolio {
   transform: translateY(0px);
+  transition-duration: 500ms;
   opacity: 0.6;
 }
 .products .products-components__description {
@@ -690,22 +694,27 @@
   display: flex;
   flex-direction: column;
 }
+.contact-wrapper__credentials--color {
+  color: #2196f3;
+}
 .contact-wrapper__credentials ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding: 0px 0px 60px 0px;
 }
-.contact-wrapper__credentials ul__adress {
-  padding: 28px 0px 0px 0px;
-  color: #e5e5e5;
+.contact-wrapper__credentials ul .adress {
+  color: red;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-decoration: none;
+  padding-top: 12px;
 }
 .contact-wrapper__social {
   display: flex;
   flex-direction: column;
+  padding: 20px 0px 0px 0px;
 }
 .contact-wrapper__title {
   font-weight: 700;
@@ -748,6 +757,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 20px 0px 0px 0px;
 }
 .contact-wrapper__newsletter {
   font-weight: 700;

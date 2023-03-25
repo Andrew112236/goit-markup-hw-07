@@ -28,6 +28,10 @@
   line-height: 1.19;
   text-decoration: none;
   color: $color4;
+
+  &--footer {
+    color: $primarycolor;
+  }
 }
 
 .contact-list {

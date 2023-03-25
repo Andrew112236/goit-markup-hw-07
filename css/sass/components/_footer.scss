@@ -15,18 +15,23 @@
       display: flex;
       flex-direction: column;
 
+      &--color {
+        color: $secondarycolor;
+      }
+
       ul {
         display: flex;
         flex-direction: column;
         gap: 12px;
+        padding: 0px 0px 60px 0px;
 
-        &__adress {
-          padding: 28px 0px 0px 0px;
-          color: $color2;
+        .adress {
+          color: red;
           font-size: 14px;
           line-height: 1.143;
           letter-spacing: 0.03em;
           text-decoration: none;
+          padding-top: 12px;
         }
       }
     }
@@ -34,6 +39,7 @@
     &__social {
       display: flex;
       flex-direction: column;
+      padding: 20px 0px 0px 0px;
     }
     &__title {
       font-weight: 700;
@@ -82,6 +88,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+      padding: 20px 0px 0px 0px;
     }
 
     &__newsletter {
