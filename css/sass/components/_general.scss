@@ -43,6 +43,18 @@
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: $color7;
+
+    &:hover {
+      color: $secondarycolor;
+      transition: $transition;
+      transition-duration: 250ms;
+    }
+
+    &:focus {
+      color: $secondarycolor;
+      transition: $transition;
+      transition-duration: 250ms;
+    }
   }
 
   &__phone {

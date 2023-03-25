@@ -145,6 +145,16 @@
   letter-spacing: 0.02em;
   color: #757575;
 }
+.contact-list__mail:hover {
+  color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.contact-list__mail:focus {
+  color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
 .contact-list__phone {
   text-decoration: none;
   font-family: "Roboto", "sans-serif";
@@ -167,7 +177,7 @@
 .main-page {
   background-repeat: no-repeat;
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), no-repeat;
-  background: url("/images/background.jpg");
+  background: url(../images/background.jpg);
   background-position: 50% 50%;
   background-size: cover;
   background-color: #2f303a;
