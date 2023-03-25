@@ -87,14 +87,10 @@
       &:hover {
         cursor: pointer;
         box-shadow: $color9;
-        transition: $transition;
-        transition-duration: 250ms;
 
         .transition-container__portfolio {
           transform: translateY(0px);
           opacity: 0.6;
-          transition-duration: 250ms;
-          transition-timing-function: $transition;
         }
       }
     }
