@@ -166,7 +166,8 @@
 
 .main-page {
   background-repeat: no-repeat;
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/background.jpg) no-repeat;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), no-repeat;
+  background: url("/images/background.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-color: #2f303a;
@@ -701,15 +702,14 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 0px 0px 60px 0px;
+  padding: 28px 0px 60px 0px;
 }
 .contact-wrapper__credentials ul .adress {
-  color: red;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.143;
-  letter-spacing: 0.03em;
   text-decoration: none;
-  padding-top: 12px;
+  color: #ffffff;
 }
 .contact-wrapper__social {
   display: flex;
@@ -727,7 +727,7 @@
   display: flex;
   flex-direction: co;
   align-items: center;
-  margin: 20px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   gap: 10px;
 }
 .contact-wrapper__icons li {
@@ -757,7 +757,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
 }
 .contact-wrapper__newsletter {
   font-weight: 700;
